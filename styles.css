@@ -1,6 +1,18 @@
 *{
     font-family: sans-serif;
 }
+
+h1{
+   color: #ffe7aa;
+   font-size: 40px;
+   font-weight: bold;
+}
+
+h3{
+    color: #ffe7aa;
+    font-size: 25px;
+    margin: 0;
+}
 body{
     margin:0;
     padding: 0;
@@ -46,3 +58,12 @@ body{
     margin-right: 20px;
 }
 
+#intro{
+    background-color:#0d2f81;
+    padding: 20px 31.25px 0 31.25px;
+}
+
+#intro p{
+    color: white;
+    line-height: 25px;
+}
