@@ -4,8 +4,9 @@
 
 h1{
    color: #ffe7aa;
-   font-size: 40px;
+   font-size: 50px;
    font-weight: bold;
+   margin: 0;
 }
 
 h3{
@@ -64,18 +65,21 @@ body{
     padding: 20px 31.25px 0 31.25px;
 }
 
+#intro h3{
+margin-bottom: 20px;
+}
+
 #intro p{
     color: white;
     line-height: 25px;
 }
 
-#Sign-Up-Button{
-    width: 120.25px;
+.button{
     height: 27.6px;
     background-color: white;
     color: black;
     padding: 8px 50px;
-    display: block;
+    display: inline-block;
     margin-top: 30px;
     line-height: 27.6px;
     font-size: 16px;
@@ -125,5 +129,117 @@ body{
 #busywork p{
     line-height: 26px;
     padding-bottom: 70px;
+    margin-bottom: 0;
 }
+
+#ui-explainers{
+    background-color: #0d2f81;
+}
+
+#file-storage-and-sharing{
+    padding: 30px 31.25px;
+}
+
+.product-tour-descriptions{
+    padding: 0 31.25px 30px 31.25px;
+    color: white;
+    font-size: 16px; 
+}
+
+.product-tour-descriptions h3{
+    color: white;
+}
+
+.ui-image-container{
+    display: flex; 
+    max-width: 780px;
+    height: auto;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.ui-image-container img{
+    flex-grow: 1;
+    height: auto; 
+    max-width: 100%;
+}
+
+#ui-explainer-end-line-container{
+    padding: 70px 31.25px 30px 31.25px;
+}
+
+#ui-explainer-end-line{
+    width: 100%; 
+    border-bottom: 1px solid grey;
+
+}
+
+#call-to-action{
+    background-color:#0d2f81;
+    padding: 100px 31.25px;
+}
+
+#call-to-action h3{
+    color: #ffe7aa;
+    
+}
+
+#dropbox-options{
+    padding: 100px 31.25px;
+}
+
+#dropbox-options h1, #dropbox-options h3{
+    padding: 15px 0;
+    color: black;
+}
+
+#dropbox-options .button{
+    background-color: #0061ff;
+    color: white;
+    margin: 0;
+}
+#footer-container{
+    width: 100%;
+}
+
+footer{
+    padding-top: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+
+
+.footer-group-list-items{
+    margin: 0;
+    display: block;
+    padding-bottom: 44px;
+    width: 142.6px;
+    flex-grow: 1; 
+    flex-basis: 35%;   
+    
+}
+
+.footer-lists{
+    padding: 0;
+}
+
+.footer-group-headings{
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+footer li{
+    list-style-type: none;
+    padding: 6px 0;
+    font-size: 14px;
+}
+
+
+
 
