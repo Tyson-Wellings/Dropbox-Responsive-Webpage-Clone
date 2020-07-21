@@ -19,6 +19,13 @@ body{
     padding: 0;
 }
   
+nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    z-index: 9;
+}
+
 #mobile-nav{
     position: relative;
     height: 70px;
@@ -27,14 +34,23 @@ body{
     color: white;
     display: flex;
     align-items: center;
+    
 }
 
 
 
-#mobile-nav img{
-    margin-left: 31.25px;
+#logo {
+    margin-left: 7.5%;
     color: white;
     flex-grow: 0;
+}
+
+#wordmark{
+    display: none;
+    flex-grow: 0;
+    color: white;
+    
+
 }
 
 #mobile-nav-right-container{
@@ -50,7 +66,7 @@ body{
 }
 #hamburger{
     font-size: 20px;
-    margin-right: 31.25px;
+    margin-right: 7.5%;
     
 }
 
@@ -62,7 +78,7 @@ body{
 
 #intro{
     background-color:#0d2f81;
-    padding: 20px 31.25px 0 31.25px;
+    padding: 20px 7.5% 0 7.5%;
 }
 
 #intro h3{
@@ -96,7 +112,7 @@ margin-bottom: 20px;
 
 #intro-image-container{
     flex-grow: 1;
-    margin: 30px 31.25px;
+    margin: 30px 7.5%;
     z-index: 2;
     position: relative;
 }
@@ -119,7 +135,7 @@ margin-bottom: 20px;
 
 #busywork{
     background-color:#ffe7aa;
-    padding: 0 31.25px 0 31.25px;
+    padding: 0 7.5%;
 }
 
 #busywork h3{
@@ -137,11 +153,11 @@ margin-bottom: 20px;
 }
 
 #file-storage-and-sharing{
-    padding: 30px 31.25px;
+    padding: 7.5% 7.5%;
 }
 
 .product-tour-descriptions{
-    padding: 0 31.25px 30px 31.25px;
+    padding: 7.5%;
     color: white;
     font-size: 16px; 
 }
@@ -155,7 +171,6 @@ margin-bottom: 20px;
     max-width: 780px;
     height: auto;
     align-items: center;
-    margin-bottom: 30px;
 }
 
 .ui-image-container img{
@@ -165,7 +180,7 @@ margin-bottom: 20px;
 }
 
 #ui-explainer-end-line-container{
-    padding: 70px 31.25px 30px 31.25px;
+    padding: 70px 7.5% 7.5% 7.5%;
 }
 
 #ui-explainer-end-line{
@@ -176,7 +191,7 @@ margin-bottom: 20px;
 
 #call-to-action{
     background-color:#0d2f81;
-    padding: 100px 31.25px;
+    padding: 100px 7.5%;
 }
 
 #call-to-action h3{
@@ -185,7 +200,7 @@ margin-bottom: 20px;
 }
 
 #dropbox-options{
-    padding: 100px 31.25px;
+    padding: 100px 7.5%;
 }
 
 #dropbox-options h1, #dropbox-options h3{
@@ -203,7 +218,7 @@ margin-bottom: 20px;
 }
 
 footer{
-    padding-top: 30px;
+    padding: 30px 40px 0 0;
     background-color: black;
     color: white;
     display: flex;
@@ -217,7 +232,7 @@ footer{
 .footer-group-list-items{
     margin: 0;
     display: block;
-    padding-bottom: 44px;
+    padding: 0 0 44px 40px;
     width: 142.6px;
     flex-grow: 1; 
     flex-basis: 35%;   
@@ -240,6 +255,78 @@ footer li{
     font-size: 14px;
 }
 
+
+
+@media (min-width: 741px){
+    .footer-group-list-items{
+        flex-basis: 10%;   
+    }
+
+    #wordmark{
+        
+        display: inline-block;
+        padding-left: 10px;
+    }
+
+}
+
+@media (min-width: 803px){
+    
+    h3 {
+        font-size: 30px;
+    }
+    #intro p{
+        width: 37.5%;
+    }
+
+    #intro h1{
+        width: 42.5%;
+        height: auto;
+        font-size: 45px;
+    }
+
+    #busywork{
+        width: 50%;
+        padding: 0 42.5% 0 7.5%;
+        height: auto;
+    }
+
+    .product-tour-descriptions{
+        padding: 7.5% 10%;
+    }
+
+    #ui-explainers{
+        display: flex;
+        padding: 7.5% 10%;
+        width: 80%;
+        height: 1000px;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #ui-explainers h3{
+        flex-grow: 1;
+        flex-basis: 51%
+    }
+
+    .product-tour-descriptions{
+        flex-grow: 0;
+        flex-basis: 40%;
+    }
+
+    .ui-image-container{
+        flex-grow: 1;
+        flex-basis: 40%;
+    }
+
+    #ui-explainer-end-line-container{
+        width: 100%;
+        padding: 0 5%;
+    }
+    
+
+    
+}
 
 
 
