@@ -72,8 +72,18 @@ nav{
 
 #Sign-In{
     height: 20px;
-    margin-right: 20px;
-    
+    padding: 0 15px;
+}
+
+.hidden-buttons-1025px{
+    height: 20px;
+    display: none;
+    padding: 10px 15px;
+}
+
+#Sign-Up{
+    padding: 0 15px;
+    margin-right: 10%;
 }
 
 #intro{
@@ -321,11 +331,27 @@ footer li{
 
     #ui-explainer-end-line-container{
         width: 100%;
-        padding: 0 5%;
     }
-    
+}
 
-    
+@media (min-width: 1025px){
+
+    .hidden-buttons-1025px{
+         display: inline-block;
+    }
+
+    #hamburger{
+        display: none;
+    }
+
+    #intro h1{
+        font-size: 71px;
+        width: 45%;
+    }
+
+    #intro p{
+        width: 30%;
+    }
 }
 
 
